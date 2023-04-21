@@ -38,8 +38,8 @@ function pelea(jugadores){
         console.log("jugador 2 le pega a jugodor 1");
         jugador.vidaActual = jugador.vidaActual - jugador2.daño
 
-        console.log(jugador.vidaActual);
-        console.log(jugador2.vidaActual);
+        console.log('vida jugador 1 :' + jugador.vidaActual);
+        console.log('vida jugador 2 :' + jugador2.vidaActual);
 
         if(jugador.vidaActual <= 0) {
             console.log("JUGADOR 2 HA GANADO");
